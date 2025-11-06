@@ -7,7 +7,7 @@
 Initial setup is launched from the 3cx host by user "debian":
 
 ```
-wget -qO - https://raw.githubusercontent.com/CX-engine/cx-engine-utils/main/cx_3cx | bash
+wget -qO - https://raw.githubusercontent.com/CX-engine/cx-engine-utils/master/cx_3cx | bash
 ```
 
 ### Initial Setup if 3CX admin user is "root"
@@ -15,6 +15,6 @@ wget -qO - https://raw.githubusercontent.com/CX-engine/cx-engine-utils/main/cx_3
 Initial setup is launched from the 3cx host by user "root":
 
 ```
-wget -qO - https://raw.githubusercontent.com/CX-engine/cx-engine-utils/main/cx_3cx_via_root | bash
+wget -qO - https://raw.githubusercontent.com/CX-engine/cx-engine-utils/master/cx_3cx_via_root | bash
 
 ```

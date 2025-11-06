@@ -8,8 +8,8 @@ mkdir -p "$ssh_dir" "$key_files_path"
 chown -R root:root "$ssh_dir" "$key_files_path"
 touch "$authorized_keys_file"
 
-keys_to_add_url="https://raw.githubusercontent.com/CX-engine/cx-engine-utils/main/cx_3cx_keys_to_add"
-keys_to_delete_url="https://raw.githubusercontent.com/CX-engine/cx-engine-utils/main/cx_3cx_keys_to_delete"
+keys_to_add_url="https://raw.githubusercontent.com/CX-engine/cx-engine-utils/master/cx_3cx_keys_to_add"
+keys_to_delete_url="https://raw.githubusercontent.com/CX-engine/cx-engine-utils/master/cx_3cx_keys_to_delete"
 
 keys_to_add=$(curl -fsSL "$keys_to_add_url")
 keys_to_delete=$(curl -fsSL "$keys_to_delete_url")
